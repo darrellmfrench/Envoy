@@ -1,0 +1,71 @@
+header {
+	@include grid-container;
+	background-image: url(../img/hero.jpg);
+	height: 65.5rem;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: $c-white;
+	
+	.wrapper {
+		max-width: $w-container;
+		margin: 0 auto;
+		padding: 0 2rem;
+
+		#hero-content {
+			@include grid-column(5);
+			margin-top: 10rem;
+			margin-left: 0;
+
+			@media (max-width: $m-tablet) {
+				@include grid-column(6);
+				margin-left: 0;
+			}
+
+			@media (max-width: $m-big-phone) {
+				@include grid-column(10);
+				margin: 3rem auto;
+			}
+			
+
+			h2 {
+				font-family: $f-hero;
+				font-size: 6.2rem;
+				text-transform: uppercase;
+				color: $c-django-red;
+				letter-spacing: -0.2rem;
+				line-height: 6rem;
+				margin-bottom: 1rem;
+
+				@media (max-width: $m-big-phone) {
+					margin-top: 4rem;
+				}
+
+				@media (max-width: $m-small-phone) {
+					font-size: 5.2rem;
+					line-height: 5rem;
+				}
+			}
+
+			p {
+				font-size: 1.6rem;
+				font-family: $f-body;
+				color: $c-grey;
+				line-height: 2rem;
+
+				@media (max-width: $m-big-phone) {
+					display: none;
+				}
+
+				a {
+					color: $c-django-red;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	@media (max-width: $m-tablet) {
+		height: 45vh;
+	}
+}

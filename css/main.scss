@@ -1,0 +1,17 @@
+@import "neat/neat";
+@import "var";
+@import "nav";
+@import "header";
+@import "main-content";
+@import "feature-work";
+@import "wire";
+
+html {
+	font-size: $f-body-size;
+	font-family: $f-body;
+}
+body {
+	background-color: $c-black;
+	margin: 0;
+	padding-bottom: 8rem;
+}

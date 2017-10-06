@@ -1,0 +1,75 @@
+#wire {
+	@include grid-container;
+	h4 {
+		font-family: $f-body;
+		font-weight: bold;
+		font-size: 2.2rem;
+		color: $c-grey;
+		border-bottom: .2rem solid $c-dark;
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+
+		a {
+			color: $c-red;
+			font-size: 1.3rem;
+			text-decoration: none;
+			font-weight: normal;
+			text-transform: capitalize;
+			margin-left: 1rem;
+		}
+	}
+	
+	#wire-wrapper{
+		@include grid-collapse;
+		
+		.wire {
+			@include grid-column(4);
+			margin-bottom: 4rem;
+
+			@media (max-width: $m-tablet) {
+				@include grid-column(6);
+				min-height: 18rem;
+			}
+
+			@media (max-width: $m-big-phone) {
+				@include grid-column(12);
+				min-height: auto;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			h5 {
+				font-size: 3.4rem;
+				color: $c-white;
+				margin: 2rem 0 0;
+
+				&.active {
+					color: $c-blue;
+				}
+			}
+
+			p {
+				margin: .5rem 0;
+				font-weight: bold;
+				color: $c-grey;
+				font-size: 1.3rem;
+				line-height: 1.8rem;
+			}
+
+			a {
+				font-family: $f-body;
+				font-weight: bold;
+				color: $c-red;
+				font-size: 1.3rem;
+				text-decoration: none;
+
+				@media (max-width: $m-big-phone) {
+					border-bottom: 1px solid #fff;
+    				padding-bottom: 2.5rem;
+				}
+			}
+		}
+	}
+}
