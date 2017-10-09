@@ -1,10 +1,11 @@
 nav {
 
-	position: fixed;
+	position: absolute;
 	background: rgba($c-black,.8);
 	width: 100%;
 	top: 0;
 	left: 0;
+	z-index: 1;
 	@media (max-width: $m-big-phone) {
 		background: $c-black;
 		position: relative;

@@ -1,0 +1,80 @@
+/*
+Error: Undefined variable: "$c-black".
+        on line 4 of css/_nav.scss
+
+1: nav {
+2: 
+3: 	position: absolute;
+4: 	background: rgba($c-black,.8);
+5: 	width: 100%;
+6: 	top: 0;
+7: 	left: 0;
+8: 	z-index: 1;
+9: 	@media (max-width: $m-big-phone) {
+
+Backtrace:
+css/_nav.scss:4
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:186:in `perform_arg'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `block in _perform'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each_with_index'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `each'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `map'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:133:in `_perform'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
+/Users/MontezFrench/.rvm/gems/ruby-2.2.6@global/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$c-black\".\A         on line 4 of css/_nav.scss\A \A 1: nav {\A 2: \A 3: 	position: absolute;\A 4: 	background: rgba($c-black,.8);\A 5: 	width: 100%;\A 6: 	top: 0;\A 7: 	left: 0;\A 8: 	z-index: 1;\A 9: 	@media (max-width: $m-big-phone) {"; }
