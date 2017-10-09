@@ -71,7 +71,7 @@ header {
         height: 45vh; } }
     @media (max-width: 680px) {
       header .carousel {
-        height: 38vh; } }
+        height: 36vh; } }
     header .carousel .carousel-cell {
       height: 100%; }
       header .carousel .carousel-cell img {
@@ -99,9 +99,6 @@ header {
       transform: none;
       bottom: 2rem;
       z-index: 2; }
-      @media (max-width: 680px) {
-        header .carousel .flickity-prev-next-button {
-          display: none; } }
       header .carousel .flickity-prev-next-button.previous {
         left: auto;
         right: 4rem; }
